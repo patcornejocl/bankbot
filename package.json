@@ -1,0 +1,19 @@
+{
+  "name": "bankbot",
+  "version": "0.0.1",
+  "author": "Pat Cornejo",
+  "description": "Bank Bot Fullfilment Webhook",
+  "main": "bankbot.js",
+  "scripts": {
+    "start": "node bankbot.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.183.0",
+    "body-parser": "latest",
+    "config": "^1.29.2",
+    "express": "^4.16.1",
+    "ngeohash": "^0.6.0",
+    "request-promise": "^4.2.2",
+    "twig": "^1.10.5"
+  }
+}
