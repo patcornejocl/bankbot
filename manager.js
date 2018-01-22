@@ -8,8 +8,8 @@ const getClient = () => {
 
         AWS.config.update({
             region: 'us-east-1',
-            accessKeyId: 'AKIAIVIEPZFZNRFCB3BQ',
-            secretAccessKey: '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',
+            accessKeyId: '',
+            secretAccessKey: '',
         });
 
         db = new AWS.DynamoDB.DocumentClient();
