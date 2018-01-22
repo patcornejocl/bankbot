@@ -1,6 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 
 config/default.json
-api.js
+manager.js
 node_modules
 .idea
