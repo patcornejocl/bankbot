@@ -19,12 +19,15 @@ const config = (req, res) => {
 
 const webhook = (req, res) => {
     const body = req.body;
+    console.log(req.body);
     const payload = body["originalDetectIntentRequest"]["payload"];
+    console.log("---------");
+    console.log(payload);
 
     if (Utils.isDefined(payload)) {
         const data = payload["data"];
         const source = payload["source"];
-
+        console.log(data);
         if(Utils.isDefined(data) && source === "facebook") {
             const result = body["queryResult"];
 
