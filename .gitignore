@@ -2,4 +2,5 @@
 
 config/default.json
 node_modules
+manager.js
 .idea
